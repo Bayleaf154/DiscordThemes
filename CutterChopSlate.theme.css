@@ -1,4 +1,4 @@
-//META{"name":"CutterChop's Maintained Slate Theme","description":"CutterChop Personal Dark Theme","author":"Bayleaf154#3070","version":"2.3"}*//{}
+//META{"name":"CutterChop's Maintained Slate Theme","description":"CutterChop Personal Dark Theme","author":"Bayleaf154#3070","version":"2.1"}*//{}
 
 @import url(https://github.com/Bayleaf154/DiscordThemes/blob/main/Slate.theme.css);
 
@@ -42,7 +42,7 @@
 }
 
 /* Changes color of mentions normal and hover */
-.wrapper-3WhCwL {
+.wrapper-3WhCwL, .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
   background-color: rgba(114, 218, 145, 0.1);
   color: #3bfd1a;
 }
@@ -231,23 +231,14 @@ theme-dark a {
     background-color: #404040;
 }
 
-/* User panel */
-.container-3baos1 {
-    height: 52px;
-    font-size: 14px;
-    font-weight: 500;
-    /* display: -webkit-box; */
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 0 8px;
-    /* margin-bottom: 1px; */
-}
-
-.container-3baos1, .container-3baos1 .avatar-SmRMf2 {
+/* upload popup colors */
+.uploadModal-2ifh8j .inner-3nWsbo, .theme-dark .uploadModal-2ifh8j, .theme-dark .footer-3mqk7D, .theme-dark .errorState-KkUH_2 {
   background-color: #111111;
+}
+/* avatar panel */
+.container-3baos1{
+  background-color: #111111;
+  border-top: 1px solid #202020;
 }
 
 .container-1giJp5 {
@@ -262,24 +253,50 @@ theme-dark a {
 }
 
 .rtcConnectionQualityFine-2J6i8z .pingForeground-2uAOZ3 {
-    color: #3bfd1a;
+  color: #3bfd1a;
 }
 
 /* emote selection */
-.inspector-3LQtX9 {
+.inspector-3LQtX9{
   background: #111111;
 }
 
+/*discover area */
+.scroller-1d5FgU{
+  background: #111111;
+  border-left: 1px solid #202020;
+}
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG{
+  background-color: rgba(59, 253, 26, 0.8);
+}
 /* Focused Search Box */
 .resultsGroup-r_nuzN {
   background-color: #111111;
 }
 
-.theme-dark .option-96V44q.selected-rZcOL- {
+.theme-dark .option-96V44q.selected-rZcOL-, .header-1TKi98 {
   background-color: #303030;
+}
+
+.container-3baos1, .container-3baos1 .avatar-SmRMf2{
+    margin-bottom: 0px; 
+    background-color: #111111;
+}
+
+.section-2gLsgF, .templatesList-2E6rTe, .theme-light .footer-2gL1pp {
+	background-color: #202020;
+}
+
+.theme-dark .option-96V44q:after, .theme-dark .option-96V44q:after {
+     background: none;
+     background: none;
 }
 
 /* window control buttons */
 .winButton-iRh8-Z, .themed-OHr7kt.item-PXvHYJ, .titleSecondary-3Dh_RZ, .navButton-2gQCx-, .unicodeShortcut-15J8Ck, .headerText-2F0828:hover, .layout-2DM8Md:hover, .privateChannelsHeaderContainer-3NB1K1:hover {
 	color: #c8c8c8;
+}
+
+.colorHeaderPrimary-26Jzh- {
+	color: #fff;
 }
