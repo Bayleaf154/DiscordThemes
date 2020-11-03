@@ -279,11 +279,6 @@ theme-dark a {
   background-color: #303030;
 }
 
-.theme-dark .option-96V44q:after, .theme-dark .option-96V44q:after {
-    /* background: -webkit-gradient(linear,left top,right top,from(rgba(54,57,63,0)),color-stop(80%,#36393f)); */
-    /* background: linear-gradient(90deg,rgba(54,57,63,0),#36393f 80%); */
-}
-
 /* window control buttons */
 .winButton-iRh8-Z, .titleSecondary-3Dh_RZ, .navButton-2gQCx-, .unicodeShortcut-15J8Ck, .headerText-2F0828:hover, .layout-2DM8Md:hover, .privateChannelsHeaderContainer-3NB1K1:hover {
 	color: #c8c8c8;
