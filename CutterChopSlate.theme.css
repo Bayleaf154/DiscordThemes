@@ -1,4 +1,4 @@
-//META{"name":"CutterChop's Maintained Slate Theme","description":"CutterChop Personal Dark Theme","author":"Bayleaf154#3070","version":"2.2"}*//{}
+//META{"name":"CutterChop's Maintained Slate Theme","description":"CutterChop Personal Dark Theme","author":"Bayleaf154#3070","version":"2.3"}*//{}
 
 @import url(https://github.com/Bayleaf154/DiscordThemes/blob/main/Slate.theme.css);
 
@@ -280,6 +280,6 @@ theme-dark a {
 }
 
 /* window control buttons */
-.winButton-iRh8-Z, .titleSecondary-3Dh_RZ, .navButton-2gQCx-, .unicodeShortcut-15J8Ck, .headerText-2F0828:hover, .layout-2DM8Md:hover, .privateChannelsHeaderContainer-3NB1K1:hover {
+.winButton-iRh8-Z, .themed-OHr7kt.item-PXvHYJ, .titleSecondary-3Dh_RZ, .navButton-2gQCx-, .unicodeShortcut-15J8Ck, .headerText-2F0828:hover, .layout-2DM8Md:hover, .privateChannelsHeaderContainer-3NB1K1:hover {
 	color: #c8c8c8;
 }
