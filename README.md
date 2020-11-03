@@ -1,2 +1,1 @@
-# DiscordThemes
-Personal Themes
+yes
